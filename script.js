@@ -2,8 +2,8 @@ const NAME = "CarlosThomaz";
 const PASSWORD = "12345";
 
 function validateForm() {
-    let name = document.forms["form"]["fname"].value;
-    let pass = document.forms["form"]["fpass"].value;
+    let name = document.getElementById("user-input").value;
+    let pass = document.getElementById("pass-input").value;
 
     if (name == "") {
         alert("Preencha todos os campos");
