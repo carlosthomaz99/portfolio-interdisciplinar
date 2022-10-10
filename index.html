@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="loginForm">
-        <form name="form" onsubmit="return validateForm()">
+        <form name="form">
             <h1 class="login-title">Login</h1>
 
             <input type="text" placeholder="User" name="fname">
@@ -20,7 +20,7 @@
             <input type="password" placeholder="Password" name="fpass">
             <br><br>
 
-            <button class="login-btn" type="submit">Entrar</button>
+            <button class="login-btn" onclick="return validateForm()">Entrar</button>
             <br><br>
             <button type="reset" class="cancel-btn">Cancelar</button> 
         </form>
