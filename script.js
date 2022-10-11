@@ -44,3 +44,8 @@ function turnOnGreetings() {
     const greetings = document.getElementById("greetings");
     greetings.style.opacity = 1;
 }
+
+function reset() {
+    document.getElementById("user-input").value = "";
+    document.getElementById("pass-input").value = "";
+}
